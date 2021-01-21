@@ -73,8 +73,8 @@ namespace NewRelicDemo_NN_01.Models
         public async Task<IActionResult> High()
         {
 
-            int num=0;
-            for (int i = 0; i < 1000; i++) {
+            int num=1;
+            for (int i = 1; i < 10000; i++) {
 
                 num = i;
             
